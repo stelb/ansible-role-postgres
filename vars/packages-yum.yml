@@ -4,8 +4,8 @@ pg_version: "{{item | replace('.', '')}}"
 postgres_packages:
 - postgresql{{pg_version}}-server
 - postgresql{{pg_version}}
-- powa_{{pg_version}}
-- powa_{{pg_version}}-web
+- powa_{{pg_version}}-3.2.0-2.rhel7
+- powa_{{pg_version}}-web-3.2.0-2.rhel7
 - postgresql{{pg_version}}-contrib
 - pg_top{{pg_version}}
 - pg_catcheck{{pg_version}}
